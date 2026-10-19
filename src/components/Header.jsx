@@ -18,7 +18,7 @@ export default function Header() {
       <Container className="flex h-20 items-center justify-between">
         <a href="#topo" className="flex items-center">
           <img
-            src="/logo-fisiocariri.jpg"
+            src={`${import.meta.env.BASE_URL}logo-fisiocariri.jpg`}
             alt="FisioCariri — Fisioterapia em Geral e Pilates"
             className="h-14 w-14 mix-blend-multiply"
           />

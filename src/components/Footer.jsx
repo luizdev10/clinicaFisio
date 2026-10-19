@@ -95,7 +95,7 @@ export default function Footer() {
         <div>
           <a href="#topo" className="inline-flex rounded-xl bg-paper p-1.5">
             <img
-              src="/logo-fisiocariri.jpg"
+              src={`${import.meta.env.BASE_URL}logo-fisiocariri.jpg`}
               alt="FisioCariri — Fisioterapia em Geral e Pilates"
               className="h-12 w-12 rounded-lg"
             />
