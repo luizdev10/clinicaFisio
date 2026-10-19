@@ -68,16 +68,14 @@ export default function Diferenciais() {
               <Reveal
                 key={item.title}
                 delay={index * 90}
-                className={`flex flex-col rounded-3xl p-7 ${
-                  highlighted
+                className={`flex flex-col rounded-3xl p-7 ${highlighted
                     ? "bg-forest text-paper"
                     : "border border-ink/8 bg-card text-ink"
-                }`}
+                  }`}
               >
                 <span
-                  className={`mb-6 flex h-11 w-11 items-center justify-center rounded-full ${
-                    highlighted ? "bg-paper/10 text-paper" : "bg-sage-light text-forest"
-                  }`}
+                  className={`mb-6 flex h-11 w-11 items-center justify-center rounded-full ${highlighted ? "bg-paper/10 text-paper" : "bg-sage-light text-forest"
+                    }`}
                 >
                   <svg
                     viewBox="0 0 24 24"
@@ -93,19 +91,17 @@ export default function Diferenciais() {
                 </span>
                 <h3 className="font-display text-lg font-semibold">{item.title}</h3>
                 <p
-                  className={`mt-2.5 text-[15px] leading-relaxed ${
-                    highlighted ? "text-paper/70" : "text-ink-soft"
-                  }`}
+                  className={`mt-2.5 text-[15px] leading-relaxed ${highlighted ? "text-paper/70" : "text-ink-soft"
+                    }`}
                 >
                   {item.description}
                 </p>
                 <a
                   href="#agendamento"
-                  className={`mt-6 inline-flex w-fit items-center gap-1.5 rounded-full px-4 py-2 text-sm font-semibold transition-colors duration-150 ${
-                    highlighted
+                  className={`mt-auto inline-flex w-fit items-center gap-1.5 rounded-full px-4 py-2 text-sm font-semibold transition-colors duration-150 ${highlighted
                       ? "bg-paper text-forest hover:bg-sage-light"
                       : "bg-sage-light text-forest hover:bg-forest hover:text-paper"
-                  }`}
+                    }`}
                 >
                   Agendar
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-3.5 w-3.5">

@@ -79,20 +79,6 @@ export default function Inicio() {
               reconhecida
             </span>
           </div>
-
-          <div className="absolute -top-5 right-5 flex items-center gap-3 rounded-2xl border border-ink/5 bg-card px-4 py-3 shadow-sm">
-            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-sage-light text-forest">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
-                <path d="M12 2a5 5 0 0 1 5 5v2a5 5 0 0 1-10 0V7a5 5 0 0 1 5-5Z" />
-                <path d="M19 10v1a7 7 0 0 1-14 0v-1M12 18v4" />
-              </svg>
-            </span>
-            <span className="text-[13px] font-medium leading-tight text-ink">
-              Fisioterapeutas
-              <br />
-              especialistas
-            </span>
-          </div>
         </Reveal>
       </Container>
     </section>

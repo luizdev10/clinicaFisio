@@ -18,7 +18,7 @@ const contactItems = [
   },
   {
     label: "Endereço",
-    value: "Av. Paulista, 1100 — São Paulo, SP",
+    value: "R. Padre Cícero, 853 - Centro, Juazeiro do Norte - CE",
   },
   {
     label: "Horário",
