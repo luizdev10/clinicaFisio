@@ -38,9 +38,11 @@ export default function Header() {
             ))}
           </ul>
 
-          <Button as="a" href="#agendamento" variant="primary" className="hidden lg:inline-flex">
-            Agendar avaliação
-          </Button>
+          <div className="hidden lg:block">
+            <Button as="a" href="#agendamento" variant="primary">
+              Agendar avaliação
+            </Button>
+          </div>
 
           <button
             type="button"
